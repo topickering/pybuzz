@@ -6,3 +6,6 @@ def test_pybuzz_one():
 
 def test_pybuzz_three():
     assert pybuzz(3) == 'Fizz'
+
+def test_pybuzz_six():
+    assert pybuzz(6) == 'Fizz'
