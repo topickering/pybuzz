@@ -1,4 +1,4 @@
 def pybuzz(n):
-    s = ''
-    s += str(n)
-    return s
+    if n == 3:
+        return 'Fizz'
+    return str(n)
