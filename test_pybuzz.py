@@ -12,3 +12,6 @@ def test_pybuzz_six():
 
 def test_pybuzz_ten():
     assert pybuzz(10) == 'Buzz'
+
+def test_pybuzz_thirty():
+    assert pybuzz(30) == 'FizzBuzz'
