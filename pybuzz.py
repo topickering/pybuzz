@@ -1,3 +1,4 @@
 def pybuzz(n):
     s = ''
-    return s += str(n)
+    s += str(n)
+    return s
