@@ -15,3 +15,9 @@ def test_pybuzz_ten():
 
 def test_pybuzz_thirty():
     assert pybuzz(30) == 'FizzBuzz'
+
+def test_is_divisible_by():
+    assert divisible_by_x(6, 3) == True
+
+def test_is_not_divisible_by():
+    assert divisible_by_x(5, 3) == False
